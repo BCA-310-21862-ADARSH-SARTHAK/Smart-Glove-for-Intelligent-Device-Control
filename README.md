@@ -1,30 +1,16 @@
 \# Smart Glove for Intelligent Device Control
 
-
-
 \## Overview
-
-
 
 This project presents a Smart Glove capable of controlling intelligent devices using hand gestures. The developed wearable system uses flex sensors mounted on a glove to recognize finger movements and convert them into control commands.
 
-
-
 The generated commands are transmitted wirelessly using ESP-NOW between two ESP32 microcontrollers. A Python communication program transfers these commands to an Industrial PC through SSH, where a C++ robot controller running inside Docker executes the corresponding movements on the Syncro5 Collaborative Robot.
-
-
 
 The project demonstrates real-time human-machine interaction for industrial automation.
 
-
-
 \---
 
-
-
 \## Features
-
-
 
 \- Flex sensor based gesture recognition
 
@@ -44,15 +30,9 @@ The project demonstrates real-time human-machine interaction for industrial auto
 
 \- Safe emergency stop mechanism
 
-
-
 \---
 
-
-
 \## Hardware Used
-
-
 
 \- Syncro5 Collaborative Robot
 
@@ -72,15 +52,9 @@ The project demonstrates real-time human-machine interaction for industrial auto
 
 \- USB Cable
 
-
-
 \---
 
-
-
 \## Software Used
-
-
 
 \- Ubuntu 22.04 LTS
 
@@ -100,107 +74,55 @@ The project demonstrates real-time human-machine interaction for industrial auto
 
 \- ESP-NOW
 
-
-
 \---
-
-
 
 \## Communication Flow
 
-
-
 Flex Sensors
 
-
-
 ↓
-
-
 
 ESP32 Transmitter
 
-
-
 ↓
-
-
 
 ESP-NOW
 
-
-
 ↓
-
-
 
 ESP32 Receiver
 
-
-
 ↓
-
-
 
 USB Serial
 
-
-
 ↓
-
-
 
 Python
 
-
-
 ↓
-
-
 
 SSH
 
-
-
 ↓
-
-
 
 Industrial PC
 
-
-
 ↓
-
-
 
 Docker
 
-
-
 ↓
-
-
 
 C++ Robot Controller
 
-
-
 ↓
-
-
 
 Syncro5 Cobot
 
-
-
 \---
 
-
-
 \## Folder Structure
-
-
 
 ```text
 
@@ -220,39 +142,20 @@ Videos/
 
 ```
 
-
-
 \---
-
-
 
 \## Author
 
-
-
 \*\*Adarsh Sarthak\*\*
-
-
 
 BCA Final Year Project
 
-
-
 Aryabhatta Knowledge University
-
-
 
 CIMAGE Professional College
 
-
-
 \---
-
-
 
 \## License
 
-
-
 Educational Use Only.
-
