@@ -60,7 +60,7 @@ The project demonstrates real-time human-machine interaction for industrial auto
 
 \- Arduino IDE
 
-\- Python 3.10
+\- Python
 
 \- C++
 
